@@ -2,7 +2,7 @@
 
 - Mã học viên theo lớp: 2A202602355
 - Ngày / CVAT local: 2026-09-17
-- Công cụ đã dùng: Polygon, Brush
+- Công cụ đã dùng: Polygon
 
 ## 1. Bài đã nộp
 
@@ -33,7 +33,7 @@
 - Quy tắc và hành động sửa: Theo quy tắc "phủ đúng vùng, không để gap", tôi vẽ lại polygon `road` thành một mảng lớn đè trực tiếp lên toàn bộ khu vực mặt đường kể cả vùng dưới gầm xe. Sau đó chỉnh Z-order của `car` lên cao hơn `road` để xe nổi lên trên, tránh chồng lấp khi chấm Panoptic.
 - Sau sửa đã Save và export lại chưa? Đã Save trên CVAT và export lại file ZIP để nộp.
 
-Kết quả tự chạy scorecard: `easy_semantic` 0.825, `hard_panoptic` tăng lên 0.990 sau khi sửa Z-order và lấp gap. Tổng ba tier: **65.6 / 82**. Không tự ghi PASS/top 3/bonus.
+Kết quả tự chạy scorecard: `easy_semantic` 0.825, `hard_panoptic` tăng lên 0.909 sau khi sửa Z-order và lấp gap. Tổng ba tier: **65.6 / 82**. Không tự ghi PASS/top 3/bonus.
 
 ## 4. Ba ca chưa chắc hoặc đã cân nhắc
 
